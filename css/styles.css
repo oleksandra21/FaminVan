@@ -5,7 +5,6 @@
 /* Changing the main font and background colour */
 
 body {
-	font-family: Raleway, sans-serif;
 	background-color: transparent !important;
 	background-image: url("../images/texture.jpg");
 }
@@ -31,8 +30,7 @@ footer a:hover {
 /* Corporate navbar */
 
 #navbar-corporate a.active {
-	color: #800000;
-	font-weight: bold;
+	color: #E3A925;
 }
 
 /* Hero Section shadow */
@@ -52,7 +50,7 @@ footer a:hover {
 
 .text-style1 {
 	color: #E3A925; 
-	text-shadow: -.09em -.09em .09em #eb6447 }
+	text-shadow: 1px 1px #eb6447 }
 
 
 .montserrat-famvan {
