@@ -6,13 +6,14 @@
 
 body {
 	font-family: Raleway, sans-serif;
-	background-color: #fffcf8;
+	background-color: transparent !important;
+	background-image: url("../images/texture.jpg");
 }
 
 /* Changing the background colour for the header */
 
 header {
-	background-color: #000060;
+	background-color: #EEE4CF;
 }
 
 /* Changing the background color for the navigation bar */
@@ -41,4 +42,22 @@ footer a:hover {
 		.02em .02em .02em white,
 		0 0 .2em white,
 		0 0 .5em white;
+}
+
+.pacifico-regular {
+  font-family: "Pacifico", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.text-style1 {
+	color: #E3A925; 
+	text-shadow: -.09em -.09em .09em #eb6447 }
+
+
+.montserrat-famvan {
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400 ;
+  font-style: normal;
 }
