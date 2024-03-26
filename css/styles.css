@@ -31,6 +31,7 @@ footer a:hover {
 
 #navbar-corporate a.active {
 	color: #E3A925;
+	text-shadow: 1px 1px #eb6447 
 }
 
 /* Hero Section shadow */
@@ -40,6 +41,9 @@ footer a:hover {
 		.02em .02em .02em white,
 		0 0 .2em white,
 		0 0 .5em white;
+}
+.body-part1 {
+	background-color: #273726;
 }
 
 .pacifico-regular {
