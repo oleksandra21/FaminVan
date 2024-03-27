@@ -18,7 +18,7 @@ header {
 /* Changing the background color for the navigation bar */
 
 .navbar {
-	background-color: #fff0e0;
+	background-color: #757B33;
 }
 
 /* Effect on social media buttons */
@@ -54,7 +54,7 @@ footer a:hover {
 
 .text-style1 {
 	color: #E3A925; 
-	text-shadow: 1px 1px #eb6447 }
+	text-shadow: 2px 2px #eb6447 }
 
 
 .montserrat-famvan {
@@ -63,3 +63,52 @@ footer a:hover {
   font-weight: 400 ;
   font-style: normal;
 }
+.maintext {
+	text-decoration-color: bla
+}
+ .section {
+            padding: 50px;
+            text-align: center;
+            color: #fff;
+	        width: 100%;
+	 		box-sizing: border-box;
+        }
+        #section1 {
+            background-color: #273726;
+        }
+        #section2 {
+            background-image: url('photo_texture.jpg');
+            background-size: cover;
+            background-position: center;
+        }
+        #section3 {
+            background-color: orange;
+        }
+        .section h2 {
+            font-size: 32px;
+            margin-bottom: 20px;
+        }
+        .section p {
+            font-size: 18px;
+        }
+        .image-links {
+            display: flex;
+            justify-content: center;
+            margin-top: 30px;
+        }
+        .image-links a {
+            margin: 0 20px;
+            text-decoration: none;
+            color: #fff;
+        }
+        .image-links img {
+            width: 200px;
+            height: auto;
+            border-radius: 10px
+}
+
+.image-links a:hover img {
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); /* Adjust shadow color and strength as needed */
+        }
+
+   
