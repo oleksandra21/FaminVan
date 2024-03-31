@@ -2,78 +2,158 @@
 <html>
 <head>
 <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Movies</title>
-	
-<!-- Bootstrap CSS -->
-	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
-	    <!-- Global CSS -->
-<link href="css/styles.css" rel="stylesheet" type="text/css">
-	    <!-- Local Page CSS -->
-	<link href="css/games.css" rel="stylesheet" type="text/css">
-	
-	<!-- Linking Pacifico Font -->
-<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Pacifico&family=Montserrat:wght@400&display=swap">
 
+<!-- Bootstrap CSS -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+<!-- Global CSS -->
+<link href="css/styles.css" rel="stylesheet" type="text/css">
+<!-- Local Page CSS -->
+<link href="css/games.css" rel="stylesheet" type="text/css">
+
+<!-- Linking Pacifico Font -->
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Pacifico&family=Montserrat:wght@400&display=swap">
 </head>
-	
 
 <body  class="h-100 d-flex flex-column ">
-	
-	<!-- Navigation bar, adapted from https://getbootstrap.com/docs/5.1/components/navbar/ -->
-	  <nav class="navbar navbar-expand-lg navbar-light pacifico-regular text-style1">
-      <div class="container-fluid">
-        <a class="navbar-brand" href="#">
-          <img src="images/logo.png" width="40" alt="FamVan">
-        </a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-            <li class="nav-item">
-              <a class="text-style1 nav-link" aria-current="page" href="index.html">Home</a>
-            </li>
-            <li class="nav-item">
-              <a class="text-style1 nav-link" href="example.html">Movies&nbsp;</a>
-            </li>
-           
-            <li class="nav-item">
-              <a class="text-style1 nav-link" href="playlists.html">Playlists&nbsp;</a>
-            </li>
-			  <li class="nav-item">
-              <a class="text-style1 nav-link" href="games.html">Games&nbsp;</a>
-            </li>
-            <li class="nav-item">
-              <a class="text-style1 nav-link" href="corporate.html">About&nbsp;</a>
-            </li>
-          </ul>
-        </div>
-      </div>
-    </nav>
-	<br>
-	<br>
-	
-	<div class="pacifico-regular">
-    <h1 class="text-style1 text-center">Movies</h1>
-		<br>
-		<br>
-</div>
-	
-	
-	
-	<br>
-	<br>
-	
-<div class="d-grid gap-2 col-6 mx-auto">
-  <a href="index.html" class=" montserrat-famvan btn btn-light btn-lg mt-3">Family Movies</a>
-  <a href="https://netflix.com" class="montserrat-famvan btn btn-light btn-lg mt-3">Animated Favourites</a>
-  <a href="https://netflix.com" class="montserrat-famvan btn btn-light btn-lg mt-3">Holiday Specials</a>
+
+<!-- Navigation bar, adapted from https://getbootstrap.com/docs/5.1/components/navbar/ -->
+<nav class="navbar navbar-expand-lg navbar-light pacifico-regular text-style1">
+  <div class="container-fluid"> <a class="navbar-brand" href="#"> <img src="images/logo.png" width="40" alt="FamVan"> </a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"> <span class="navbar-toggler-icon"></span> </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item"> <a class="text-style1 nav-link" aria-current="page" href="index.html">Home</a> </li>
+        <li class="nav-item"> <a class="text-style1 nav-link" href="movies.html">Movies&nbsp;</a> </li>
+        <li class="nav-item"> <a class="text-style1 nav-link" href="playlists.html">Playlists&nbsp;</a> </li>
+        <li class="nav-item"> <a class="text-style1 nav-link" href="games.html">Games&nbsp;</a> </li>
+        <li class="nav-item"> <a class="text-style1 nav-link" href="corporate.html">About&nbsp;</a> </li>
+      </ul>
+    </div>
   </div>
+</nav>
+<br>
+<br>
+<div class="pacifico-regular">
+  <h1 class="text-style1 text-center larger-text">Movies</h1>
+  <br>
+  <br>
+</div>
+<br>
+<!-- Category 1 -->
+<div class="montserrat-famvan">
+  <h5 class="text-center bg-warning py-2">Family Movies</h5>
+</div>
+<br>
 	
+<div class="container text-center">
+  <div class="row">
+    <div class="col-md mb-4">
+      <img src="images/aladdin.png" class="card-img-top" alt="aladdin poster">
+	<br>
+	<br>
+	 <a class="btn btn-outline-success w-100 montserrat-famvan" href="https://www.disneyplus.com/eu/browse/entity-9b5b36b5-d285-4ab1-9c9d-03a1d6609433" role="button">Aladdin, 2019</a>
+    </div>
+    <div class="col-md mb-4">
+      <img src="images/mamma_mia.png" class="card-img-top" alt="mamma mia poster">
+	<br>
+	<br>
+		 <a class="btn btn-outline-success w-100 montserrat-famvan" href="https://www.netflix.com/search?q=mamm&jbv=80235214" role="button">Mamma Mia, 2018</a>
+    </div>
+    <div class="col-md mb-4">
+      <img src="images/narnia.png" class="card-img-top" alt="narnia poster">
+	<br>
+	<br>
+		 <a class="btn btn-outline-success w-100 montserrat-famvan" href="https://www.disneyplus.com/eu/browse/entity-6b59eb41-8660-4d93-bc42-9521bebb47a3" role="button">Narnia, 2005</a>
+    </div>
+	 <div class="col-md mb-4">
+      <img src="images/jungle_book.png" class="card-img-top" alt="jungle book poster">
+		<br>
+	<br>
+		 <a class="btn btn-outline-success w-100 montserrat-famvan" href="https://www.disneyplus.com/eu/browse/entity-f50cb3b5-0959-4316-97bc-24ea049b753d" role="button">Jungle Book, 2016</a>
+    </div>
+  </div>
+</div>
+<!-- End Category 1 -->	
 <br>
 <br>
 <br>
-<img class="mb-4" src="images/road.png" width="1700" alt="road" >
+<!-- Category 2 -->
+<div class="montserrat-famvan">
+  <h5 class="text-center bg-warning py-2">Animated Favourites</h5>
+<br>
+<div class="container text-center">
+  <div class="row">
+    <div class="col-md mb-4">
+      <img src="images/encanto.png" class="card-img-top" alt="encanto poster">
+<br>
+<br>
+ <a class="btn btn-outline-success w-100 montserrat-famvan" href="https://www.disneyplus.com/eu/browse/entity-328b0ec7-6e50-4ead-aa7f-c8bb92e6f08a" role="button">Encanto, 2020</a>
+    </div>
+    <div class="col-md mb-4">
+      <img src="images/shrek.png" class="card-img-top" alt="shrek poster">
+<br>
+<br>
+ <a class="btn btn-outline-success w-100 montserrat-famvan" href="https://www.netflix.com/Kids/character/108868/titles?jbv=60020686" role="button">Shrek, 2001</a>	
+    </div>
+    <div class="col-md mb-4">
+      <img src="images/tangled.png" class="card-img-top" alt="tangled poster">
+<br>
+<br>
+ <a class="btn btn-outline-success w-100 montserrat-famvan" href="https://www.disneyplus.com/eu/browse/entity-197d29a0-7a57-4eca-afa9-da1c050c5abe" role="button">Tangled, 2010</a>
+    </div>
+	 <div class="col-md mb-4">
+      <img src="images/ratatouille.png" class="card-img-top" alt="ratatouille poster">
+<br>
+<br>
+ <a class="btn btn-outline-success w-100 montserrat-famvan" href="https://www.disneyplus.com/eu/browse/entity-ab7c4e29-04f1-46dd-931a-d43be1ce0f8c" role="button">Ratatouille, 2007</a>
+    </div>
+  </div>
+</div>
+</div>
+<!--End Category 2 -->	
+<br>
+<br>
+<br>
+<!-- Category 3 -->
+<div class="montserrat-famvan">
+  <h5 class="text-center bg-warning py-2">Holiday Specials</h5>
+	<div class="container text-center">
+	<br>
+  <div class="row">
+    <div class="col-md mb-4">
+      <img src="images/home_alone.png" class="card-img-top" alt="home alone poster">
+	<br>
+	<br>
+		 <a class="btn btn-outline-success w-100 montserrat-famvan" href="https://www.netflix.com/Kids/search?q=home%20al&jbv=596974" role="button">Home Alone, 1990</a>
+    </div>
+    <div class="col-md mb-4">
+      <img src="images/hocus_pocus.png" class="card-img-top" alt="hocus pocus poster">
+<br>
+	<br>
+		 <a class="btn btn-outline-success w-100 montserrat-famvan" href="https://www.disneyplus.com/eu/browse/entity-b99c38fd-44ae-402f-b727-bc7fccb63740" role="button">Hocus Pocus, 1993</a>
+    </div>
+    <div class="col-md mb-4">
+      <img src="images/nightmare_before.png" class="card-img-top" alt="the nightmare before christmas poster">
+<br>
+	<br>
+		 <a class="btn btn-outline-success w-100 montserrat-famvan" href="https://www.disneyplus.com/eu/browse/entity-4aa190d7-6010-410d-b567-b8be3296b521" role="button">Nightmare Before Christmas, 1993</a>	
+    </div>
+	 <div class="col-md mb-4">
+      <img src="images/egg_hunt.png" class="card-img-top" alt="license plate">
+<br>
+	<br>
+		 <a class="btn btn-outline-success w-100 montserrat-famvan" href="https://www.disneyplus.com/eu/browse/entity-4267f7ff-a311-4638-b147-eb48adeed8e5" role="button">The Great Egg-Scapade, 2016</a>	
+    </div>
+  </div>
+</div>
+</div>
+<!-- End Category 3 -->	
+<br>
+<br>
+<p>
+<div class= "montserrat-famvan text-center"> The movies in these categories are linked via the streaming platforms Netflix and Disney+ </div>
+</p>
 </body>
 </html>
