@@ -11,3 +11,6 @@
             max-width: 10%; 
         }
 	
+.larger-text {
+    font-size: 4em; /* Adjust the font size as needed */
+  }

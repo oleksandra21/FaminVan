@@ -6,6 +6,8 @@
 <title>Games</title>
 <!-- Bootstrap CSS -->
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+	
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 <!-- Global CSS -->
 <link href="css/styles.css" rel="stylesheet" type="text/css">
 <!-- Local Page CSS -->
@@ -21,7 +23,7 @@
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
       <ul class="navbar-nav me-auto mb-2 mb-lg-0">
         <li class="nav-item"> <a class="text-style1 nav-link" aria-current="page" href="index.html">Home</a> </li>
-        <li class="nav-item"> <a class="text-style1 nav-link" href="example.html">Movies&nbsp;</a> </li>
+        <li class="nav-item"> <a class="text-style1 nav-link" href="movies.html">Movies&nbsp;</a> </li>
         <li class="nav-item"> <a class="text-style1 nav-link" href="playlists.html">Playlists&nbsp;</a> </li>
         <li class="nav-item"> <a class="text-style1 nav-link" href="games.html">Games&nbsp;</a> </li>
         <li class="nav-item"> <a class="text-style1 nav-link" href="corporate.html">About&nbsp;</a> </li>
@@ -32,85 +34,376 @@
 <br>
 <br>
 <div class="pacifico-regular">
-  <h1 class="text-style1 text-center">Games</h1>
+  <h1 class="text-style1 text-center larger-text">Games</h1>
 </div>
-<br>
 <br>
 <br>
 <br>
 <div class="montserrat-famvan">
-  <h3 class="text-center">Two Players</h3>
+  <h5 class="text-center bg-warning py-2">Two Players</h5>
 </div>
 <br>
 <br>
 <!-- Card 1 -->
-<div class="d-flex justify-content-center flex-column px-lg-5 align-items-center w-100">
-  <div class="w-50">
-	  
-    <div class="card mb-3 card border-success mb-3"> <img src="images/license_plate.jpg" class="card-img-top" alt="license plate">
-      <div class="card-body">
-        <div class="pacifico-regular">
-          <h3 class="text-style1 card-title">License Plate Game</h3>
+<div class="container">
+  <div class="row">
+    <div class="col">
+      <div class="card mb-3 card border-success mb-3"> <img src="images/license_plate.png" class="card-img-top" alt="license plate">
+        <div class="card-body">
+          <div class="pacifico-regular">
+            <h3 class="text-style1 card-title text-center">License Plate Game</h3>
+          </div>
+          <p class="montserrat-famvan card-text text-success text-center">Your drive feels way too long - engage with all the other vehicles on the road and dive into our challenge.</p>
+          
+          <!-- Button trigger modal -->
+          <button type="button" class="montserrat-famvan btn btn-success w-100" data-bs-toggle="modal" data-bs-target="#Modal1"> Show Rules </button>
+          <!-- Modal -->
+          <div class="modal fade" id="Modal1" tabindex="-1" aria-labelledby="exampleModal1" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-scrollable">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h1 class="modal-title fs-5" id="exampleModal1">Game Rules</h1>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body text-left"> 
+Riding in the back seat, minutes may sometimes feel like hours, but there is always so much going on around us! Cars, trucks, vans, all vehicles sharing the long road, transporting adventurers to their long-awaited dream destinations. What better way to turn boredom into fun, then engaging with all of them in a little game.
+<br>
+<br>
+<strong>Goal of the License Plate Game:</strong> 
+<br>
+Spot as many different license plates as possible.  					
+<br>
+<br>
+<b>Rules of the License Plate Game:</b> 
+<br>
+<ul>
+	<li>
+Take out a sheet of paper or your phone notes. 
+	</li>
+	<li>
+Set a timer of 15 minutes and get ready! 
+	</li>
+<li>
+Look carefully, the player who first spots a plate calls it out and adds it to their points. 
+</li>
+<li>
+When the timer is up, sum all points and find who’s the winner of the round!
+</li>
+</ul>
+License plates from a different town count as 1 point, but <b>DING DONG</b> spot a plate from a different country and win big 3 points.				
+<br>
+<br>
+If you want to make the game extra difficult you can add the rule – once a town/country is spotted more than 3 times, it doesn’t count anymore as valid. 
+<br>
+<br>
+<b>Have a safe journey and lots of fun!</b>  </div>
+                <div class="modal-footer">
+                  <button type="button" class="montserrat-famvan btn btn-success" data-bs-dismiss="modal">Ready?</button>
+                </div>
+              </div>
+            </div>
+          </div>
+	<!-- End Modal --> 
         </div>
-        <p class="montserrat-famvan card-text text-success">Tranform pass-time into fun and engage with all the other vehicles on the road with a little competition.</p>
-        <a href="#" class="montserrat-famvan btn btn-success" data-toggle="modal" data-target="#exampleModal">Show Rules</a> </div>
+      </div>
     </div>
     <!-- Card 2 -->
-    <div class="card mb-3 card border-success mb-3"> <img src="images/bingo.jpg" class="card-img-top" alt="bingo">
-      <div class="card-body">
-        <div class="pacifico-regular">
-          <h3 class="text-style1 card-title">Bingo On The Road</h3>
-        </div>
-        <p class="montserrat-famvan card-text text-success">Text explaining the game</p>
-        <a href="#" class="montserrat-famvan btn btn-success" data-toggle="modal" data-target="#exampleModal">Show Rules</a> </div>
+    <div class="col">
+      <div class="card mb-3 card border-success mb-3"> <img src="images/bingo.png" class="card-img-top" alt="bingo">
+        <div class="card-body">
+          <div class="pacifico-regular">
+            <h3 class="text-style1 card-title text-center">Bingo On The Road</h3>
+          </div>
+          <p class="montserrat-famvan card-text text-success text-center">A police car, a lake, a yellow car? Can you spot all objects before your opponent and become the big winner?</p>
+			
+          <button type="button" class="montserrat-famvan btn btn-success w-100" data-bs-toggle="modal" data-bs-target="#Modal2">Show Rules</button>
+		<!-- Modal -->
+          <div class="modal fade" id="Modal2" tabindex="-1" aria-labelledby="exampleModal2" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-scrollable">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h1 class="modal-title fs-5" id="exampleModal2">Game Rules</h1>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body text-left"> 
+It is true what they say: “Long journeys lead to the best destinations”, but we all know that the time spent getting there may often feel a bit too long than we would like to. But it doesn’t always have to be like that! Here to save your day, try out our <b>Bingo on the Road!</b> 
+<br>
+<br>
+<b>Below you can find our template:</b>
+<br>
+<img src="images/bingocard.png" class="card-img-top" alt="bingo">
+<b>Goal of Bingo On The Road:</b> 
+<br>
+Be the first to mark a row, a column, or a diagonal and become the great winner. If you want to make the game extra difficult – play until all boxes are checked! 					
+<br>
+<br>
+<b>Rules of Bingo On The Road:</b> 
+<br>
+<ul>
+	<li>
+When you fulfil the rule of the box, check it out. 
+	</li>
+	<li>
+The first player who checks a row, a column, a diagonal or all boxes screams <b> BINGO! </b>
+	</li>
+<li>
+Then the game gets stopped, and the results evaluated!
+</li>
+</ul>
+Alternatively, you can make your own Bingo board, ask all family members to come up with suggestions and personalize your fun! 		
+<br>
+<img src="images/bingob.png" class="card-img-top" alt="bingo">
+<br>
+<br>
+<b>Have a safe journey and lots of fun!</b>  </div>
+                <div class="modal-footer">
+                  <button type="button" class="montserrat-famvan btn btn-success" data-bs-dismiss="modal">Ready?</button>
+                </div>
+              </div>
+            </div>
+          </div>
+	<!-- End Modal --> 
+		  </div>
+      </div>
     </div>
     <!-- Card 3 -->
-    <div class="card mb-3 card border-success mb-3"> <img src="images/alphabet.jpg" class="card-img-top" alt="alphabet">
-      <div class="card-body">
-        <div class="pacifico-regular">
-          <h3 class="text-style1 card-title">The Alphabet Game</h3>
-        </div>
-        <p class="montserrat-famvan card-text text-success">Text explaining the game</p>
-        <a href="#" class="montserrat-famvan btn btn-success" data-toggle="modal" data-target="#exampleModal">Show Rules</a> </div>
+    <div class="col">
+      <div class="card mb-3 card border-success mb-3"> <img src="images/alphabet.png" class="card-img-top" alt="alphabet">
+        <div class="card-body">
+          <div class="pacifico-regular">
+            <h3 class="text-style1 card-title text-center">The Alphabet Game</h3>
+          </div>
+          <p class="montserrat-famvan card-text text-success text-center">A as an ambulance, B as a bike, C as a car, but can you find the whole alphabet on the road first? </p>
+          <button type="button" class="montserrat-famvan btn btn-success w-100" data-bs-toggle="modal" data-bs-target="#Modal3">Show Rules</button> 
+		  <!-- Modal -->
+          <div class="modal fade" id="Modal3" tabindex="-1" aria-labelledby="exampleModal3" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-scrollable">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h1 class="modal-title fs-5" id="exampleModal3">Game Rules</h1>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body text-left"> 
+So many things surrounding us on the road that no one can name them all, or you can? Signs, animals, vehicles, brands, monuments, attractions... What if we add an extra challenge – you can name them but only in alphabetical order.
+<br>
+<br>
+<b>Goal of the Alphabet Game:</b> 
+<br>
+Be the first to name an object on the road starting with each letter of the alphabet, following its order. The first player to succeed is the winner!   					
+<br>
+<br>
+<b>Rules of the Alphabet Game:</b> 
+<br>
+<ul>
+	<li>
+Look on the road and find an object starting with each letter of the alphabet. 
+	</li>
+	<li>
+When a player calls out an object starting with the letter <b>A</b>, they can start looking for one starting with the letter <b>B</b>, and so it goes until the end of the alphabet is reached or the participants decide to stop the game. 
+	</li>
+<li>
+Objects may include names of cities, road signs, animals, plants, vehicles, landmarks, and anything else you may find in the surroundings.  
+</li>
+</ul>
+Alternitavely, you can always turn the competition into a family activity and have all members involved, helping each other! 		
+<br>
+<br>
+<b>Have a safe journey and lots of fun!</b>  </div>
+                <div class="modal-footer">
+                  <button type="button" class="montserrat-famvan btn btn-success" data-bs-dismiss="modal">Ready?</button>
+                </div>
+              </div>
+            </div>
+          </div>
+	<!-- End Modal -->
+		  </div>
+      </div>
     </div>
-	  
-  <br>
-  <br>
-  <br>
-  <div class="montserrat-famvan">
-    <h3 class="text-center">Multi Player</h3>
-  </div>
-  <br>
-  <br>
-  <!-- Card 4 -->
-
-  <div class="card mb-3 card border-success mb-3"> <img src="images/karaoke.jpg" class="card-img-top" alt="karaoke">
-    <div class="card-body">
-      <div class="pacifico-regular">
-        <h3 class="text-style1 card-title">Karaoke Contest</h3>
-      </div>
-      <p class="montserrat-famvan card-text text-success">Add little description here.</p>
-      <a href="#" class="montserrat-famvan btn btn-success" data-toggle="modal" data-target="#exampleModal">Show Rules</a> </div>
-  </div>
-  <!-- Card 5 -->
-  <div class="card mb-3 card border-success mb-3"> <img src="images/questions.jpg" class="card-img-top" alt="questions">
-    <div class="card-body">
-      <div class="pacifico-regular">
-        <h3 class="text-style1 card-title">Questions To Bond</h3>
-      </div>
-      <p class="montserrat-famvan card-text text-success">Add little description here.</p>
-      <a href="#" class="montserrat-famvan btn btn-success" data-toggle="modal" data-target="#exampleModal">Show Rules</a> </div>
-  </div>
-  <!-- Card 6 -->
-  <div class="card mb-3 card border-success mb-3"> <img src="images/stories.jpg" class="card-img-top" alt="stories">
-    <div class="card-body">
-      <div class="pacifico-regular">
-        <h3 class="text-style1 card-title">Storytelling Game</h3>
-      </div>
-      <p class="montserrat-famvan card-text text-success">Add little description here.</p>
-      <a href="#" class="montserrat-famvan btn btn-success" data-toggle="modal" data-target="#exampleModal">Show Rules</a> </div>
   </div>
 </div>
+<br>
+<br>
+<br>
+<div class="montserrat-famvan">
+  <h5 class="text-center bg-warning py-2">Multi Player</h5>
 </div>
+<br>
+<br>
+<!-- Card 4 -->
+<div class="container">
+  <div class="row">
+    <div class="col">
+      <div class="card mb-3 card border-success mb-3"> <img src="images/karaoke.png" class="card-img-top" alt="karaoke">
+        <div class="card-body">
+          <div class="pacifico-regular">
+            <h3 class="text-style1 card-title text-center">Karaoke Contest</h3>
+          </div>
+          <p class="montserrat-famvan card-text text-success text-center">Turn up the music and sing your heart out, with a little twist of course!</p>
+		   <button type="button" class="montserrat-famvan btn btn-success w-100" data-bs-toggle="modal" data-bs-target="#Modal4">Show Rules</button> 
+		  <!-- Modal -->
+          <div class="modal fade" id="Modal4" tabindex="-1" aria-labelledby="exampleModal4" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-scrollable">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h1 class="modal-title fs-5" id="exampleModal4">Game Rules</h1>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body text-left"> 
+Transform your camper van into a stage and let the melodies flow! 
+<br>
+<br>
+<b>Rules of the Karaoke Contest:</b> 
+<br>
+<ul>
+	<li>
+...
+	</li>
+	<li>
+... 
+	</li>
+<li>
+...
+</li>
+</ul>
+Alternitavely, you can always... 		
+<br>
+<br>
+<b>Have a safe journey and lots of fun!</b>  </div>
+                <div class="modal-footer">
+                  <button type="button" class="montserrat-famvan btn btn-success" data-bs-dismiss="modal">Ready?</button>
+                </div>
+              </div>
+            </div>
+          </div>
+	<!-- End Modal --></div>
+      </div>
+    </div>
+    <!-- Card 5 -->
+    <div class="col">
+      <div class="card mb-3 card border-success mb-3"> <img src="images/questions.png" class="card-img-top" alt="questions">
+        <div class="card-body">
+          <div class="pacifico-regular">
+            <h3 class="text-style1 card-title text-center">Questions To Bond</h3>
+          </div>
+          <p class="montserrat-famvan card-text text-success text-center">Feel your loved ones even closer to your heart - we will show you how! </p>
+                    <button type="button" class="montserrat-famvan btn btn-success w-100" data-bs-toggle="modal" data-bs-target="#Modal5">Show Rules</button> 
+		  <!-- Modal -->
+          <div class="modal fade" id="Modal5" tabindex="-1" aria-labelledby="exampleModal5" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-scrollable">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h1 class="modal-title fs-5" id="exampleModal5">Game Rules</h1>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body text-left"> 
+You spend so much time travelling with the same people but do you actually know them. Have you ever heard of your mother's/ wife's childhood interesting stories?  
+<br>
+<br>
+<b>Rules of Questions To Bond:</b> 
+<br>
+<ul>
+	<li>
+Each participant takes turns asking a question from the provided list.  
+	</li>
+	<li>
+There are no wrong answers!  
+	</li>
+<li>
+Have fun and enjoy the journey of getting to know your travel buddies better! 
+</li>
+</ul>
+<b>Sample Questions:</b>  
+<ul>
+	<li>
+	What's one childhood memory that always brings a smile to your face? 
+	</li>
+	<li>
+	If you could live in any era of history, which one would you choose and why?  
+	</li>
+	<li>
+	What's the most adventurous thing you've ever done? 
+	</li>
+	<li>
+	Share the best memory that you experienced with your family!  
+	</li>
+	<li>
+	If you could only eat one meal for the rest of your life, what would it be?  
+	</li>
+	<li>
+	Describe a place you've visited that left a lasting impression on you.   
+	</li>
+	<li>
+	What's one skill or hobby you've always wanted to learn?   
+	</li>
+	<li>
+	Share a book, movie, or song that you love.  
+	</li>
+	<li>
+	What's a dream travel destination you hope to visit someday? 
+	</li>
+</ul>
+<b>Have a safe journey and lots of fun!</b>  </div>
+                <div class="modal-footer">
+                  <button type="button" class="montserrat-famvan btn btn-success" data-bs-dismiss="modal">Ready?</button>
+                </div>
+              </div>
+            </div>
+          </div> </div>
+      </div>
+    </div>
+    <!-- Card 6 -->
+    <div class="col">
+      <div class="card mb-3 card border-success mb-3"> <img src="images/stories.png" class="card-img-top" alt="stories">
+        <div class="card-body">
+          <div class="pacifico-regular">
+            <h3 class="text-style1 card-title text-center">Storytelling Game</h3>
+          </div>
+          <p class="montserrat-famvan card-text text-success text-center">Great stories are born in the most unexpected ways - can you prove this to us?</p>
+          	   <button type="button" class="montserrat-famvan btn btn-success w-100" data-bs-toggle="modal" data-bs-target="#Modal6">Show Rules</button> 
+		  <!-- Modal -->
+          <div class="modal fade" id="Modal6" tabindex="-1" aria-labelledby="exampleModal6" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-scrollable">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h1 class="modal-title fs-5" id="exampleModal6">Game Rules</h1>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body text-left"> 
+Add game description... 
+<br>
+<br>
+<b>Goal of the Storytelling Game:</b> 
+<br>
+<br>
+<b>Rules of the Storytelling Game:</b> 
+<br>
+<ul>
+	<li>
+...
+	</li>
+	<li>
+... 
+	</li>
+<li>
+...
+</li>
+</ul>
+Alternitavely, you can always... 		
+<br>
+<br>
+<b>Have a safe journey and lots of fun!</b>  </div>
+                <div class="modal-footer">
+                  <button type="button" class="montserrat-famvan btn btn-success" data-bs-dismiss="modal">Ready?</button>
+                </div>
+              </div>
+            </div>
+          </div>
+	<!-- End Modal --></div>
+      </div>
+    </div>
+  </div>
+</div>
+<br>
+<br>
 </body>
 </html>
