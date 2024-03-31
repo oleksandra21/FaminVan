@@ -61,26 +61,35 @@
 <br>
 	<br>
 
-<div class="container">
-
-  <!-- Video 1 -->
-	<h1 class="mt-4 mb-4">For snowy days</h1>
-  <div class="embed-responsive embed-responsive-16by9">
-    <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/BH2jJnDdFh4?si=TOIN8phlths7RZjv" allowfullscreenallowfullscreen style="width: 70%; height: 500px;"></iframe>
+<div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
   </div>
-	
-	 <!-- Video 2 -->
-    <h2 class="video-heading">Morning Coffee</h2>
-    <div class="video-container">
-        <div class="embed-responsive embed-responsive-16by9">
-            <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/SSuCyZlksrI?si=n2GuF4Mexadn9SkF" allowfullscreenallowfullscreen style="width: 70%; height: 500px;"></iframe>
-			
-<!-- Video 3 -->
-    <h2 class="video-heading">Disney playlist</h2>
-    <div class="video-container">
-        <div class="embed-responsive embed-responsive-16by9">
-            <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/Fshz5Fxe3ZA?si=ihe21J1S8l6Y2c4c" allowfullscreenallowfullscreen style="width: 70%; height: 500px;"></iframe>
-        </div>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <div class="embed-responsive embed-responsive-16by9">
+        <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/BH2jJnDdFh4" allowfullscreen></iframe>
+      </div>
     </div>
+    <div class="carousel-item">
+      <div class="embed-responsive embed-responsive-16by9">
+        <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/SSuCyZlksrI" allowfullscreen></iframe>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <div class="embed-responsive embed-responsive-16by9">
+        <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/Fshz5Fxe3ZA" allowfullscreen></iframe>
+      </div>
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
 </div>
-
