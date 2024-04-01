@@ -128,3 +128,8 @@ footer a:hover {
     width: 100%;
     position: absolute;
   }
+
+.carousel-container {
+  max-width: 600px;
+  margin: 0 auto;
+}
