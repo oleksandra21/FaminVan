@@ -6,7 +6,7 @@
 
 body {
 	background-color: transparent !important;
-	background-image: url("../images/texture.jpg");
+	background-image: url("../images/background2.jpg");
 }
 
 /* Changing the background colour for the header */
@@ -18,7 +18,7 @@ header {
 /* Changing the background color for the navigation bar */
 
 .navbar {
-	background-color: #757B33;
+	background-color: #EEE4CF;
 }
 
 /* Effect on social media buttons */
