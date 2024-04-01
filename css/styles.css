@@ -7,6 +7,7 @@
 body {
 	background-color: transparent !important;
 	background-image: url("../images/background2.jpg");
+	
 }
 
 /* Changing the background colour for the header */
@@ -67,11 +68,12 @@ footer a:hover {
 	text-decoration-color: bla
 }
  .section {
-            padding: 50px;
+            padding: -50px;
             text-align: center;
             color: #fff;
 	        width: 100%;
 	 		box-sizing: border-box;
+	 		margin-top: 0px
         }
         #section1 {
             background-color: #273726;
@@ -105,6 +107,7 @@ footer a:hover {
             width: 200px;
             height: auto;
             border-radius: 10px
+				
 }
 
 .image-links a:hover img {
@@ -128,3 +131,21 @@ footer a:hover {
     width: 100%;
     position: absolute;
   }
+
+.content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.text {
+    flex: 1;
+    padding-left: 60px; 
+}
+
+.image {
+    flex: 1;
+    text-align: right;
+	padding-right: 50px; 
+}
