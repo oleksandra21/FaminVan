@@ -1,102 +1,176 @@
-<!doctype html>
-<html lang="en" class="h-100">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-
-    <!-- Bootstrap CSS -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
-
-    <!-- Own Styles -->
-    <link rel="stylesheet" href="css/styles.css">
-
-    <!-- Bootstrap Javascript -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
-
-    <title>Fam Van Website &mdash; Landing Page</title>
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Camper Van Lovers Website</title>
+	
+	<!-- Bootstrap CSS -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script> 
+<!-- Global CSS -->
+<link href="css/styles.css" rel="stylesheet" type="text/css">
+<!-- Local Page CSS -->
+<link href="css/games.css" rel="stylesheet" type="text/css">
+<!-- Linking Pacifico and Montserrat Fonts -->
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Pacifico&family=Montserrat:wght@400&display=swap">
+	
+	<!--- links that were there -->
+    <meta name="description" content="Free bootstrap template Atlas">
+    <link rel="icon" href="img/favicon.png" sizes="32x32" type="image/png">
+    <!-- bootstrap.min.css -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+	<!-- font-awesome -->
+    <link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.min.css">
+    
+    <!-- AOS -->
+    <link rel="stylesheet" href="css/aos.css">
 	<link rel="preconnect" href="https://fonts.googleapis.com">
-	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-	<link href="https://fonts.googleapis.com/css2?family=Amaranth:ital,wght@0,400;0,700;1,400;1,700&family=Concert+One&family=Fugaz+One&family=Koulen&family=Madimi+One&family=Pacifico&family=Paytone+One&family=Righteous&family=Unbounded:wght@200..900&display=swap" rel="stylesheet">
-
-    <!-- Google Analytics code goes just below here (check PRJ4 Guide for details) -->
-
-    <!-- End of Google Analytics code -->
-<link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Amaranth:ital,wght@0,400;0,700;1,400;1,700&family=Concert+One&family=Fugaz+One&family=Koulen&family=Madimi+One&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Pacifico&family=Paytone+One&family=Righteous&family=Unbounded:wght@200..900&display=swap" rel="stylesheet">
-  </head>
-  <body class="h-100 d-flex flex-column ">
-
-    <!-- Navigation bar, adapted from https://getbootstrap.com/docs/5.1/components/navbar/ -->
-    <nav class="navbar navbar-expand-lg navbar-light pacifico-regular text-style1">
-  <div class="container-fluid">
-    <a class="navbar-brand" href="#">
-      <img src="images/logo.png" width="40" alt="FamVan">
-    </a>
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
+	
+</head>
+<body  class="h-100">
+<!-- Navigation bar, adapted from https://getbootstrap.com/docs/5.1/components/navbar/ -->
+<nav class="navbar navbar-expand-lg navbar-light font-weight-boldmontserrat-famvan .text-darkgreen ">
+  <div class="container-fluid"> <a class="navbar-brand" href="#"> <img src="images/logo1.png" width="40" alt="FamVan"> </a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"> <span class="navbar-toggler-icon"></span> </button>
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
       <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-        <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="index.html">Home</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="movies.html">Movies&nbsp;</a>
-        </li>
-       
-        <li class="nav-item">
-          <a class="nav-link" href="playlists.html">Playlists&nbsp;</a>
-        </li>
-		  <li class="nav-item">
-          <a class="nav-link" href="games.html">Games&nbsp;</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="corporate.html">About&nbsp;</a>
-        </li>
+        <li class="nav-item"> <a class="nav-link " aria-current="page" href="index.html">Home</a> </li>
+        <li class="nav-item"> <a class=" nav-link" href="movies.html">Movies&nbsp;</a> </li>
+        <li class="nav-item"> <a class=" nav-link" href="playlists.html">Playlists&nbsp;</a> </li>
+        <li class="nav-item"> <a class=" nav-link" href="games.html">Games&nbsp;</a> </li>
+        <li class="nav-item"> <a class=" nav-link" href="corporate.html">About&nbsp;</a> </li>
       </ul>
     </div>
   </div>
 </nav>
-<!-- End of navigation bar -->
-
-<!-- Start of main placeholder in landing page -->
-<main class="h-100 d-flex flex-column justify-content-center align-items-center">
-    <!-- Sections -->
-  <div class="section" id="section1">
-    <div class="content">
-        <div class="text">
-            <h2>Welcome to Camper Van Travelers</h2>
-            <p>Explore the world with your home on wheels!</p>
-        </div>
-        <div class="image">
-            <img src="images/landing_visual_1.png" width="400" alt="FamVan">
-        </div>
-    </div>
-</div>
-    <div class="section" id="section2">
-        <h2 class= "pacifico-regular text-style1" >We can help you find:&nbsp;</h2>
-        <div class="image-links">
-            <a href="example.html"><img src="images/film.png" alt="Link 1">
-			<p class= "montserrat-famvan text-style-main">Films to Watch</p>
-            </a>
-            <a href="playlists.html"><img src="images/music.png" alt="Link 2"> 
-		  <p class= "montserrat-famvan text-style-main">Music to Listen</p></a>
-            <a href="games.html"><img src="images/games.png" alt="Link 3">
-		  <p class= "montserrat-famvan text-style-main">Games toPlay</p>
-            </a>
+<body>
+       <!-- banner -->
+    <div class="jumbotron jumbotron-fluid" id="banner" style="background-image: url(images/background1.jpg);">
+			  
+      <div class="container text-center text-md-left">
+		  
+            <header> </header>
+            <h1 data-aos="fade" data-aos-easing="linear" data-aos-duration="1000" data-aos-once="true" class="display-3 text-white font-weight-bold my-5 pacifico-regular text-style1">
+            	Welcome To All <br>
+            	Camper Van Families!
+            </h1>
+        <p data-aos="fade" data-aos-easing="linear" data-aos-duration="1000" data-aos-once="true" class="lead text-white my-4 montserrat-famvan">
+                We've built a platform to ensure you get the most out of your trip! 
+				<br> With us, you and your kids will never be bored on the road again, 
+				<br> as we've gathered all the most interesting activities right here.
+            </p>
 			
-      </div>
+      <a href="#" data-aos="fade" data-aos-easing="linear" data-aos-duration="1000" data-aos-once="true" class="btn my-4 atlas-cta cta-green montserrat-famvan">Get Started</a></div>
+        </div>
+    <!-- three-blcok -->
+    <div class="container my-5 py-2" >
+        <h2 class="text-center font-weight-bold my-5 pacifico-regular text-style1">WE CAN HELP YOU WITH:&nbsp;</h2>
+        <div class="row montserrat-famvan">
+            <div data-aos="fade-up" data-aos-delay="0" data-aos-duration="1000" data-aos-once="true" class="col-md-4 text-center">
+                <img src="images/music.png" alt="Anti-spam" class="mx-auto">
+                <h4>Playlists&nbsp;</h4>
+                <p>Lorem ipsum dolor sit amet porro his no his deleniti</p>
+            </div>
+            <div data-aos="fade-up" data-aos-delay="200" data-aos-duration="1000" data-aos-once="true" class="col-md-4 text-center">
+                <img src="images/film.png" alt="Phishing Detect" class="mx-auto">
+                <h4>Films&nbsp;</h4>
+                <p>Ne error antiopam usu. Sed vocen concludaturque ea</p>
+            </div>
+            <div data-aos="fade-up" data-aos-delay="400" data-aos-duration="1000" data-aos-once="true" class="col-md-4 text-center">
+                <img src="images/games.png" alt="Smart Scan" class="mx-auto">
+                <h4>Games&nbsp;</h4>
+                <p>Et usu ocurreret elaboraret doctus prodesse assueverit.</p>
+            </div>
+        </div>
     </div>
-    <div class="section" id="section3">
-        <h2>Contact Us</h2>
-        <p>Get in touch with us for any inquiries or partnerships.</p>
+        <div class="image">
+            <img src="images/road.png" style="width: 100%;" alt="FamVan"> 
+        </div>
+    <!-- feature (skew background) -->
+    <div class="jumbotron jumbotron-fluid feature" id="feature-first">
+        <div class="container my-5">
+            <div class="row justify-content-between text-center text-md-left">
+                <div data-aos="fade-right" data-aos-duration="1000" data-aos-once="true" class="col-md-6">
+					<h2 class="font-weight-bold pacifico-regular text-style1">Vission&nbsp;</h2>
+                    <p class="my-4 montserrat-famvan">In a world where exploration knows no bounds, we believe that family adventures are the heartbeats of lasting memories. At FamVan, we're dedicated to fueling those journeys, ensuring every moment on the road is filled with joy, discovery, and togetherness</p>
+                    <a href="#" class="btn my-4 atlas-cta cta-blue montserrat-famvan ">Learn More</a>
+                </div>
+                <div data-aos="fade-left" data-aos-duration="1000" data-aos-once="true" class="col-md-6 align-self-center">
+                    <img src="images/feature-1.png" alt="Take a look inside" class="mx-auto d-block" width="200">
+                </div>
+            </div>
+        </div>
     </div>
-		<p></p>
-		
-</main>
-<!-- End of main placeholder -->
-   
+    <!-- feature (green background) -->
+    <div class="jumbotron jumbotron-fluid feature" id="feature-last">
+        <div class="container">
+            <div class="row justify-content-between text-center text-md-left">
+                <div data-aos="fade-left" data-aos-duration="1000" data-aos-once="true" class="col-md-6 flex-md-last">
+                    <h2 class="font-weight-bold pacifico-regular text-style2">Mission&nbsp;</h2>
+                    <p class="my-4 montserrat-famvan">
+                    FamVan's mission is to empower camper van families worldwide with the tools, resources, and inspiration needed to embark on unforgettable adventures, fostering meaningful connections and creating lifelong memories along the way.&nbsp; </p>
+                    <a href="#" class="btn my-4 atlas-cta cta-blue montserrat-famvan">Learn More</a>
+                </div>
+                <div data-aos="fade-right" data-aos-duration="1000" data-aos-once="true" class="col-md-6 align-self-center flex-md-first">
+                    <img src="images/feature-2.png" alt="Safe and reliable" class="mx-auto d-block" width="200">
+                </div>
+            </div>
+        </div>
+    </div>
 
-  </body>
+    <!-- price table -->
+    <div class="container my-5 py-2" id="price-table">
+        <h2 class="text-center font-weight-bold d-block mb-3 pacifico-regular text-style1">Check Out Our Socials&nbsp;</h2>
+         <div class="socials">
+        <div class="instagram">
+            <a href="https://www.instagram.com" target="_blank">
+                <img src="images/instagram.png" alt="Instagram Screenshot" >
+            </a>
+        </div>
+        <div class="facebook">
+            <a href="https://www.facebook.com" target="_blank">
+                <img src="images/instagram.png" alt="Facebook Screenshot">
+            </a>
+        </div>
+    </div>
+    </div>
+    <!-- client -->
+    <div class="jumbotron jumbotron-fluid">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-4 col-md-2 py-2 align-self-center">
+                    <img src="images/client-1.png" class="mx-auto d-block">
+                </div>
+                <div class="col-sm-4 col-md-2 py-2 align-self-center">
+                    <img src="images/client-2.png" class="mx-auto d-block">
+                </div>
+                <div class="col-sm-4 col-md-2 py-2 align-self-center">
+                    <img src="images/client-3.png" class="mx-auto d-block">
+                </div>
+                <div class="col-sm-4 col-md-2 py-2 align-self-center">
+                    <img src="images/client-4.png" class="mx-auto d-block">
+                </div>
+                <div class="col-sm-4 col-md-2 py-2 align-self-center">
+                    <img src="images/client-5.png" class="mx-auto d-block">
+                </div>
+                <div class="col-sm-4 col-md-2 py-2 align-self-center">
+                    <img src="images/client-6.png" class="mx-auto d-block">
+                </div>
+            </div>
+        </div>
+    </div>
+  
+	
+    
+    <!-- AOS -->
+    <script src="js/aos.js"></script> 
+
+<script>
+      AOS.init({
+      });
+    </script>
+</body>
 </html>
