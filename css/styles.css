@@ -6,7 +6,7 @@
 
 body {
 	background-color: transparent !important;
-	background-image: url("../images/texture.jpg");
+	background-image: url("../images/background2.jpg");
 }
 
 /* Changing the background colour for the header */
@@ -18,7 +18,7 @@ header {
 /* Changing the background color for the navigation bar */
 
 .navbar {
-	background-color: #757B33;
+	background-color: #EEE4CF;
 }
 
 /* Effect on social media buttons */
@@ -108,7 +108,7 @@ footer a:hover {
 }
 
 .image-links a:hover img {
-	box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); /* Adjust shadow color and strength as needed */
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); 
         }
 .text-style-main {
 	color: black; }
@@ -128,3 +128,10 @@ footer a:hover {
     width: 100%;
     position: absolute;
   }
+.carousel {
+  width: 50%;
+  height: 40%;
+  margin: auto;
+}
+
+
