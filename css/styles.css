@@ -316,7 +316,6 @@ footer a:hover {
         .image-links img {
             width: 200px;
             height: auto;
-            border-radius: 10px
 				
 }
 
@@ -393,6 +392,29 @@ footer a:hover {
 
   .grid-item:hover img {
     transform: scale(1.1); /* Zoom effect on hover */ 
+}
+
+.container {
+    max-width: 100%;
+    height: auto;
+}
+	.custom-list {
+    list-style: none;
+    padding: 0;
+}
+
+.custom-list li {
+    padding: 10px;
+	flex: 1;
+}
+
+/* Media query for smaller screens */
+@media only screen and (max-width: 600px) {
+    .custom-list li {
+        font-size: 14px; /* Decrease font size */
+    }
+}  
+	  
 /********** RWD **********/
 @media (max-width: 575px) {
     #banner h1 {
