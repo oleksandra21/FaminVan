@@ -348,9 +348,14 @@ footer a:hover {
     justify-content: space-between;
     align-items: center;
 }
+.carousel {
+  width: 50%;
+  height: 40%;
+  margin: auto;
+}
 .carousel-item iframe {
         margin-bottom: 30px;
-    }
+}
 
 .text {
     flex: 1;
