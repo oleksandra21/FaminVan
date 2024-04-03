@@ -1,4 +1,5 @@
 /********** common setting **********/
+
 body {
 	background-color: transparent !important;
 	background-image: url("../img/texture.jpg");
@@ -213,10 +214,6 @@ button {
     transform: scale(1.05);
 }
 
-/* Importing a Google Font */
-
-@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,200;0,400;0,700;1,200;1,400;1,700&display=swap');
-
 /* Changing the main font and background colour */
 
 body {
@@ -374,7 +371,28 @@ footer a:hover {
 {color: 273726 !important}
 
 
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* 3 columns */
+    gap: 10px; /* spacing between images */
+  }
 
+  .grid-item {
+    position: relative;
+    width: 300px; /* set width of each item to 200px */
+    height: 300px; /* set height of each item to 200px */
+    overflow: hidden; /* Hide overflow to prevent image overflow */
+  }
+
+  .grid-item img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* maintains aspect ratio without stretching */
+    transition: transform 0.3s ease; /* Smooth transition for zoom effect */
+  }
+
+  .grid-item:hover img {
+    transform: scale(1.1); /* Zoom effect on hover */ 
 /********** RWD **********/
 @media (max-width: 575px) {
     #banner h1 {
