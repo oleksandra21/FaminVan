@@ -14,6 +14,9 @@ button {
     cursor: pointer;
 }
 
+.jumbotron {
+    margin-bottom: 0 !important;
+}
 
 /* Changing the main font and background colour */
 
@@ -49,6 +52,17 @@ body {
 .text-style2 {
 	color: #FFFFFF; 
 	text-shadow: 2px 2px #C4501A }
+.lightgreen {
+	background-color: #757B33;
+	}
+
+.yellow{
+	background-color: #e38e26;
+	}
+
+.orange{
+	background-color: #eb6425;
+	}
 
 
 
@@ -78,14 +92,6 @@ footer a:hover {
 }
 
 /* Hero Section shadow */
-
-
-.
-
-
-.jumbotron {
-    margin-bottom: 0 !important;
-}
 
 .atlas-cta {
     border-radius: 22px !important;
@@ -361,9 +367,9 @@ footer a:hover {
 
 .grid-container {
     display: grid;
-    grid-template-columns: repeat(3, 1fr); /* 3 columns */
+    grid-template-columns: repeat (3, 1fr); /* 3 columns */
     gap: 10px; /* spacing between images */
-  }
+}
 
   .grid-item {
     position: relative;
@@ -397,17 +403,7 @@ footer a:hover {
 	flex: 1;
 }
 
-.lightgreen {
-	background-color: #757B33;
-	}
 
-.yellow{
-	background-color: #e38e26;
-	}
-
-.orange{
-	background-color: #eb6425;
-	}
 /* Media query for smaller screens */
 @media only screen and (max-width: 600px) {
     .custom-list li {
