@@ -408,6 +408,18 @@ footer a:hover {
 	flex: 1;
 }
 
+.lightgreen {
+	background-color: #757B33;
+	}
+
+.yellow{
+	background-color: #e38e26;
+	}
+
+.orange{
+	background-color: #eb6425;
+	}
+}
 /* Media query for smaller screens */
 @media only screen and (max-width: 600px) {
     .custom-list li {
