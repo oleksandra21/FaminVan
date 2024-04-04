@@ -1,10 +1,5 @@
 /********** common setting **********/
 
-body {
-	background-color: transparent !important;
-	background-image: url("../img/texture.jpg");
-}
-	
 h2 {
     font-size: 2.8rem !important;
     font-weight: 700;
@@ -15,10 +10,78 @@ img {
     max-width: 100%;
 }
 
-a,
 button {
     cursor: pointer;
 }
+
+
+/* Changing the main font and background colour */
+
+body {
+	background-color: transparent !important;
+	background-image: url("../images/background2.jpg");
+	
+}
+
+.body-part1 {
+	background-color: #273726;
+}
+
+	/* Fonts and twxt styles */
+
+.pacifico-regular {
+  font-family: "Pacifico", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.montserrat-famvan {
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.text-style1 {
+	color: #E3A925; 
+	text-shadow: 2px 2px#C4501A }
+
+.text-style2 {
+	color: #FFFFFF; 
+	text-shadow: 2px 2px #C4501A }
+
+
+
+/* Changing the background colour for the header */
+
+header {
+	background-color: #EEE4CF;
+}
+
+/* Changing the background color for the navigation bar */
+
+.navbar {
+	background-color: #EEE4CF;
+}
+
+/* Effect on social media buttons */
+
+footer a:hover {
+	opacity: .5;
+}
+
+/* Corporate navbar */
+
+#navbar-corporate a.active {
+	color: #E3A925;
+	text-shadow: 1px 1px #eb6447 
+}
+
+/* Hero Section shadow */
+
+
+.
+
 
 .jumbotron {
     margin-bottom: 0 !important;
@@ -149,18 +212,6 @@ button {
     color: #ffffff;
 }
 
-.pacifico-regular {
-  font-family: "Pacifico", cursive;
-  font-weight: 400;
-  font-style: normal;
-}
-
-.text-style1 {
-	color: #E3A925; 
-	text-shadow: 2px 2px #eb6447 }
-.text-style2 {
-	color: #FFFFFF; 
-	text-shadow: 2px 2px #eb6447 }
 
 
 .montserrat-famvan {
@@ -214,68 +265,6 @@ button {
     transform: scale(1.05);
 }
 
-/* Changing the main font and background colour */
-
-body {
-	background-color: transparent !important;
-	background-image: url("../images/background2.jpg");
-	
-}
-
-/* Changing the background colour for the header */
-
-header {
-	background-color: #EEE4CF;
-}
-
-/* Changing the background color for the navigation bar */
-
-.navbar {
-	background-color: #EEE4CF;
-}
-
-/* Effect on social media buttons */
-
-footer a:hover {
-	opacity: .5;
-}
-
-/* Corporate navbar */
-
-#navbar-corporate a.active {
-	color: #E3A925;
-	text-shadow: 1px 1px #eb6447 
-}
-
-/* Hero Section shadow */
-
-.white-shadow {
-	text-shadow: -.01em -.01em .01em white,
-		.02em .02em .02em white,
-		0 0 .2em white,
-		0 0 .5em white;
-}
-.body-part1 {
-	background-color: #273726;
-}
-
-.pacifico-regular {
-  font-family: "Pacifico", cursive;
-  font-weight: 400;
-  font-style: normal;
-}
-
-.text-style1 {
-	color: #E3A925; 
-	text-shadow: 2px 2px #C4501A }
-
-
-.montserrat-famvan {
-  font-family: "Montserrat", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: 400;
-  font-style: normal;
-}
 
  .section {
             padding: -50px;
