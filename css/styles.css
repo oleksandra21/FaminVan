@@ -421,7 +421,24 @@ footer a:hover {
     padding: 10px;
 	flex: 1;
 }
+/* games styles*/
+	
+/* Three Images Row*/
 
+        .image-container {
+            display: flex;
+        }
+        .image-container img {
+            flex-grow: 1; 
+            max-width: 33.33%;
+        }
+        .small-image {
+            max-width: 10%; 
+        }
+	
+.larger-text {
+    font-size: 4em; /* Adjust the font size as needed */
+  }
 
 /* Media query for smaller screens */
 @media only screen and (max-width: 600px) {
