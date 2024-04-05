@@ -52,8 +52,19 @@ body {
 .text-style2 {
 	color: #FFFFFF; 
 	text-shadow: 2px 2px #C4501A }
+
+.text-darkgreen
+{color: #273726 !important}
+
+.text-white
+{color: #FFFFFF !important}
+
 .lightgreen {
 	background-color: #757B33;
+	}
+
+.darkgreen {
+	background-color: #273726;
 	}
 
 .yellow{
@@ -63,7 +74,9 @@ body {
 .orange{
 	background-color: #eb6425;
 	}
-
+.border-darkgreen {
+	border-color: #273726;
+}
 
 
 /* Changing the background colour for the header */
@@ -361,9 +374,7 @@ footer a:hover {
     text-align: right;
 }
 
-.text-darkgreen
-{color: 273726 !important}
-
+/* spacing between images */
 
 .grid-container {
     display: grid;
