@@ -380,18 +380,22 @@ footer a:hover {
 
 /* spacing between images */
 
+ .grid-item {
+    position: relative;
+    width: 100%; /* set width of each item to 100% */
+    height: auto; /* set height to auto for responsiveness */
+    overflow: hidden; /* Hide overflow to prevent image overflow */
+}
+
 .grid-container {
     display: grid;
-    grid-template-columns: repeat (3, 1fr); /* 3 columns */
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); /* Responsive grid columns */
     gap: 10px; /* spacing between images */
 }
 
-  .grid-item {
-    position: relative;
-    width: 300px; /* set width of each item to 200px */
-    height: 300px; /* set height of each item to 200px */
-    overflow: hidden; /* Hide overflow to prevent image overflow */
-  }
+
+
+
 
   .grid-item img {
     width: 100%;
@@ -425,6 +429,9 @@ footer a:hover {
         font-size: 14px; /* Decrease font size */
     }
 }  
+/* Media query for smaller screens */
+@media only screen and (max-width: 768px) {
+    .grid-container { grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));}
 	  
 /********** RWD **********/
 @media (max-width: 575px) {
